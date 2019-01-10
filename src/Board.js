@@ -94,7 +94,7 @@ class Board extends Component {
               {row.map((cell, x) => (
                 <Cell
                   isLit={cell}
-                  flipCellsAroundMe={(this.flipCellsAround, 'x-y')}
+                  flipCellsAroundMe={(this.flipCellsAround, `${x}-${y}`)}
                 />
               ))}
             </tr>
