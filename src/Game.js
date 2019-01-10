@@ -1,12 +1,10 @@
-import React, { Component } from 'react'
-import Board from "./Board"
+import React, { Component } from 'react';
+import Board from './Board';
 
 class Game extends Component {
-  render(){
-    return(
-        <Board/>
-    )
+  render() {
+    return <Board />;
   }
 }
 
-export default Game
+export default Game;
